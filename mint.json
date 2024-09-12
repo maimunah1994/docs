@@ -52,10 +52,23 @@
     {
       "group": "Get Started",
       "pages": [
-        "introduction",
-        "quickstart",
-        "development",
-        "testing"
+        //"introduction",
+        //"quickstart",
+        //"development",
+        //"testing"
+        "Creating a Hub",
+        "Creating a Flow"
+      ]
+    },
+    {
+      "group": "Flow",
+      "pages": [
+        //"introduction",
+        //"quickstart",
+        //"development",
+        //"testing"
+        "Introduction",
+        "Building a Flow"
       ]
     },
     {
