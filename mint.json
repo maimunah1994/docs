@@ -52,7 +52,7 @@
     {
       "group": "Get Started",
       "pages": [
-        "_introduction",
+        "introduction",
         "_quickstart",
         "_development",
         "_testing",
@@ -64,7 +64,7 @@
       "group": "Flow",
       "pages": [
         "_introduction",
-        "_quickstart",
+        "quickstart",
         "_development",
         "_testing",
         "Introduction",
