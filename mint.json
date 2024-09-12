@@ -53,22 +53,16 @@
       "group": "Get Started",
       "pages": [
         "introduction",
-        "_quickstart",
-        "_development",
-        "_testing",
-        "Creating a Hub",
-        "Creating a Flow"
+        "quickstart",
+        "development",
+        "testing"
       ]
     },
     {
-      "group": "Flow",
+      "group": "MileApp",
       "pages": [
-        "_introduction",
-        "quickstart",
-        "_development",
-        "_testing",
-        "Introduction",
-        "Building a Flow"
+        "mileapp/creating-a-hub",
+        "mileapp/building-a-flow"
       ]
     },
     {
