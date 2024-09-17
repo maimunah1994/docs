@@ -41,6 +41,12 @@
       ]
     },
     {
+      "group": "Flow",
+      "pages": [
+        "mileapp/introduction-to-flow"
+      ]
+    },
+    {
       "group": "API Documentation",
       "pages": [
         "api-reference/introduction"
