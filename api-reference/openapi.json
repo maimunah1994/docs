@@ -19,14 +19,14 @@
     }
   ],
   "paths": {
-    "/plants": {
+    "/tasks": {
       "get": {
-        "description": "Returns all plants from the system that the user has access to",
+        "description": "This API endpoint allows users to fetch a list of tasks available within the organization and retrieves task data relying on the user's permissions stored in the user token. It provides access to tasks granted by the user's specific permissions, allowing access to all relevant tasks according to the user's role, team assignments, or tasks directly assigned to the user.",
         "parameters": [
           {
-            "name": "limit",
+            "name": "page",
             "in": "query",
-            "description": "The maximum number of results to return",
+            "description": "Pagination of tasks result list.",
             "schema": {
               "type": "integer",
               "format": "int32"
@@ -35,7 +35,7 @@
         ],
         "responses": {
           "200": {
-            "description": "Plant response",
+            "description": "",
             "content": {
               "application/json": {
                 "schema": {

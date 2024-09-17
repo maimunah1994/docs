@@ -47,11 +47,11 @@
       ]
     },
     {
-      "group": "Endpoint Examples",
+      "group": "Task",
       "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
+        "api-reference/endpoint/get-task",
+        "api-reference/endpoint/create-task",
+        "api-reference/endpoint/delete-task"
       ]
     }
   ],
