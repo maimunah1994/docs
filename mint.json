@@ -60,7 +60,6 @@
     {
       "group": "MileApp",
       "pages": [
-        "mileapp/creating-a-hub",
         "mileapp/creating-a-flow"
       ]
     },
