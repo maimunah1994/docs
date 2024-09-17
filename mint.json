@@ -33,7 +33,7 @@
   ],
   "navigation": [
     {
-      "group": "MileApp",
+      "group": "Getting Started",
       "pages": [
         "mileapp/creating-a-flow",
         "mileapp/creating-a-task",
