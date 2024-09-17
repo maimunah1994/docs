@@ -1,33 +1,24 @@
 ---
 title: 'Introduction'
-description: 'Example section for showcasing API endpoints'
+description: 'MileApp API Documentation'
 ---
-
-<Note>
-  If you're not looking to build API reference documentation, you can delete
-  this section by removing the api-reference folder.
-</Note>
 
 ## Welcome
 
-There are two ways to build API documentation: [OpenAPI](https://mintlify.com/docs/api-playground/openapi/setup) and [MDX components](https://mintlify.com/docs/api-playground/mdx/configuration). For the starter kit, we are using the following OpenAPI specification.
+The Mile API are using RESTful API standard, which is widely recognized in the industry for its simplicity and effectiveness in designing networked applications. Our API has predictable resource-oriented URLs, accepts JSON request bodies, returns JSON-encoded responses, and uses standard HTTP response codes, authentication, and verbs. The Mile API differs for every account as we release new versions and tailor functionality.
 
-<Card
-  title="Plant Store Endpoints"
-  icon="leaf"
-  href="https://github.com/mintlify/starter/blob/main/api-reference/openapi.json"
->
-  View the OpenAPI specification file
-</Card>
 
 ## Authentication
 
-All API endpoints are authenticated using Bearer tokens and picked up from the specification file.
+In our system, each user is limited to possessing only one personal access token without an expiration time. If a new token is generated, the old personal access token will become inactive.
+All requests need an Bearer Token for authentication. Generate your API Key here:
 
-```json
-"security": [
-  {
-    "bearerAuth": []
-  }
-]
-```
+1. Visit https://web.mile.app.
+2. Enter your user email address and password.
+3. Sign in to your account.
+4. Navigate to Profile -> Personal Token.
+5. Click New to create a new token.
+6. Fill in the token name (this is typically used to describe the token's purpose) and choose the expiration date in the Void input.
+7. Click Generate.
+
+<b>Important</b>: You can only view and copy the token once it is generated, so make sure to save it in a secure location.
