@@ -36,7 +36,8 @@
       "group": "MileApp",
       "pages": [
         "mileapp/creating-a-flow",
-        "mileapp/creating-a-task"
+        "mileapp/creating-a-task",
+        "mileapp/assigning-a-task"
       ]
     },
     {
